@@ -5,9 +5,9 @@
 A Colorado Board of elections asked us to audit a recent local congressional election. Since hundreds of thousands of votes were cast, they needed to automate this process. I did so using the Python programming language. As part of the audit I created a Python program titled PyPoll_Challenge.py to do the following.
 
 1. Calculate the total number of votes cast.
-  + I did this with a `for loop that went through the .csv file and increase a variable by 1 for each row.
+  + I did this with a `for` loop that went through the .csv file and increase a variable by 1 for each row.
 2. Acquire a complete list of candidates who received votes.
-  + I did this by creating an empty list of candidates and then creating a conditional within the `for loop. Whenever the `for loop encountered a candidate not yet contained within the list, it added that candidate to the list.
+  + I did this by creating an empty list of candidates and then creating a conditional within the `for` loop. Whenever the `for` loop encountered a candidate not yet contained within the list, it added that candidate to the list.
 3. Calculate the total number of votes each candidate received.
   + I did this by creating a dictionary that mapped a candidate's name to a variable containing their vote tally.
 4. Calculate the percentage of votes each candidate won.
